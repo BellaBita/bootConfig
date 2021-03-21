@@ -12,7 +12,7 @@ public class PortListener implements ApplicationListener<ServletWebServerInitial
 	@Override
 	public void onApplicationEvent(ServletWebServerInitializedEvent event) {
 		port = event.getWebServer().getPort();
-		System.out.println(" >>>>> " + getPort());		
+		System.out.println(">> WEB Running Port : " + getPort());		
 	}
 	
 	public int getPort() {

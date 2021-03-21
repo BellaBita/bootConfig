@@ -1,2 +1,6 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 com.bellavita.bootDemo.apps.StudentConfiguration
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.bellavita.bootDemo.apps.PortListener
